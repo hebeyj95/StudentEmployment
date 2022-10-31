@@ -13,6 +13,91 @@
     <table class="table table-striped">
         <thead class="font-weight-bold">
             <tr>
+                <td>First Name</td>
+                <td>Last Name</td>
+                <td>International?</td>
+                <td>Gender</td>
+                <td>Email</td>
+                <td>Hours</td>
+                <td>Semester</td>
+                <td>Phone</td>
+                <td>BYU ID</td>
+                <td>Position</td>
+                <td>Class Code</td>
+                <td>Employee Record</td>
+                <td>Supervisor</td>
+                <td>Hire Date</td>
+                <td>Pay Rate</td>
+                <td>Last Pay Increase</td>
+                <td>Pay Increase Amount</td>
+                <td>Increase Input Date</td>
+                <td>Year In Program</td>
+                <td>Pay Graduate Tuition?</td>
+                <td>Terminated?</td>
+                <td>Termination Date</td>
+                <td>Qualtrics Survey Sent?</td>
+                <td>Submitted Form?</td>
+                <td>Form Submission Date</td>
+                <td>Authorization to Work?</td>
+                <td>Authorization Email Date</td>
+                <td>BYU Name</td>
+                <td>Name Change Completed?</td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var x in Model)
+            {
+            <tr>
+                <td>@x.FirstName</td>
+                <td>@x.LastName</td>
+                <td>@x.International</td>
+                <td>@x.Gender</td>
+                <td>@x.Email</td>
+                <td>@x.Hours</td>
+                <td>@x.Semester</td>
+                <td>@x.Phone</td>
+                <td>@x.BYUID</td>
+                <td>@x.Position</td>
+                <td>@x.ClassCode</td>
+                <td>@x.EmpRecord</td>
+                <td>@x.Supervisor</td>
+                <td>@x.HireDate</td>
+                <td>@x.PayRate</td>
+                <td>@x.LastPayIncrease</td>
+                <td>@x.PayIncreaseAmount</td>
+                <td>@x.IncreaseInputDate</td>
+                <td>@x.YearInProgram</td>
+                <td>@x.PayGradTutition</td>
+                <td>@x.Terminated</td>
+                <td>@x.TerminationDate</td>
+                <td>@x.QualtricsSurveySent</td>
+                <td>@x.SubmittedEform</td>
+                <td>@x.FormSubmissionDate</td>
+                <td>@x.AuthorizationToWork</td>
+                <td>@x.AuthorizationEmailDate</td>
+                <td>@x.BYUName</td>
+                <td>@x.NameChangeCompleted</td>
+
+
+
+
+                <td><a asp-controller="Home" asp-action="Edit" asp-route-id="@x.ApplicationId">Edit</a></td>
+                <td><a asp-controller="Home" asp-action="Delete" asp-route-id="@x.ApplicationId">Delete</a></td>
+            </tr>
+            }
+        </tbody>
+    </table>
+
+
+</div>
+
+
+
+
+@*<div class="align-content-center">
+    <table class="table table-striped">
+        <thead class="font-weight-bold">
+            <tr>
                 <td>Category</td>
                 <td>Title</td>
                 <td>Year</td>
@@ -43,4 +128,4 @@
     </table>
     
 
-</div>
+</div>*@

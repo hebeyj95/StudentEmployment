@@ -1,12 +1,172 @@
 ﻿@{
-    ViewData["Title"] = "Add Movie";
+    ViewData["Title"] = "Add Student";
 }
 @model ApplicationResponse;
 
 <h1>@ViewData["Title"]</h1>
 
-<h3>Use the form below to add a movie to the collection</h3>
+<h3>Use the form below to add a a student to your department.</h3>
+
 <div>
+    <form method="post">
+        <input type="hidden" asp-for="ApplicationId" />
+        <div class="form-group">
+            <label asp-for="FirstName">First Name:</label>
+            <input asp-for="FirstName" />
+        </div>
+        <div class="form-group">
+            <label asp-for="LastName">Last Name:</label>
+            <input asp-for="LastName" />
+        </div>
+        <div class="form-group">
+            <label asp-for="International">Is The Student International?:</label>
+            <select asp-for="International">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label asp-for="Gender">Gender:</label>
+            <input asp-for="Gender" />
+        </div>
+        <div class="form-group">
+            <label asp-for="Email">Email:</label>
+            <input asp-for="Email" />
+        </div>
+        <div class="form-group">
+            <label asp-for="Hours">Hours:</label>
+            <input asp-for="Hours" />
+        </div>
+        <div class="form-group">
+            <label asp-for="Semester">Semester:</label>
+            <select asp-for="International">
+                <option value="Fall">Fall</option>
+                <option value="Winter">Winter</option>
+                <option value="Spring">Spring</option>
+                <option value="Summer">Summer</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label asp-for="Phone">Phone:</label>
+            <input asp-for="Phone" />
+        </div>
+        <div class="form-group">
+            <label asp-for="BYUID">BYU ID:</label>
+            <input asp-for="BYUID" />
+        </div>
+        <div class="form-group">
+            <label asp-for="Position">Position:</label>
+            <input asp-for="Position" />
+        </div>
+        <div class="form-group">
+            <label asp-for="ClassCode">Class Code:</label>
+            <input asp-for="ClassCode" />
+        </div>
+        <div class="form-group">
+            <label asp-for="EmpRecord">Empployee Record:</label>
+            <input asp-for="EmpRecord" />
+        </div>
+        <div class="form-group">
+            <label asp-for="Supervisor">Supervisor:</label> @*consider making this a <select> drop down*@
+            <input asp-for="Supervisor" />
+        </div>
+        <div class="form-group">
+            <label asp-for="HireDate">Hire Date:</label>
+            <input asp-for="HireDate" />
+        </div>
+        <div class="form-group">
+            <label asp-for="PayRate">Pay Rate:</label>
+            <input asp-for="PayRate" />
+        </div>
+        <div class="form-group">
+            <label asp-for="LastPayIncrease">Last Pay Increase:</label>
+            <input asp-for="LastPayIncrease" />
+        </div>
+        <div class="form-group">
+            <label asp-for="PayIncreaseAmount">Pay Increase Amount:</label>
+            <input asp-for="PayIncreaseAmount" />
+        </div>
+        <div class="form-group">
+            <label asp-for="IncreaseInputDate">Increase Input Date:</label> @*Consider switching from string to DateTime*@
+            <input asp-for="IncreaseInputDate" />
+        </div>
+        <div class="form-group">
+            <label asp-for="YearInProgram">Year in Program:</label>
+            <input asp-for="YearInProgram" />
+        </div>
+        <div class="form-group">
+            <label asp-for="PayGradTutition">Pay Graduate Tuition?:</label>
+            <select asp-for="PayGradTutition">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label asp-for="Terminated">Was the Employee Terminated?:</label> @*Consider adding in ability to edit this field*@
+            <select asp-for="Terminated">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label asp-for="TerminationDate">Termination Date:</label> @*Consider switching from string to DateTime*@
+            <input asp-for="TerminationDate" />
+        </div>
+        <div class="form-group">
+            <label asp-for="QualtricsSurveySent">Was the Qualtrics Survey Sent?:</label> @*Consider adding in ability to edit this field*@
+            <select asp-for="QualtricsSurveySent">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label asp-for="SubmittedEform">Has the Form Been Submitted?:</label> @*Consider adding in ability to edit this field*@
+            <select asp-for="SubmittedEform">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label asp-for="FormSubmissionDate">Form Submission Date:</label> @*Consider switching from string to DateTime*@
+            <input asp-for="FormSubmissionDate" />
+        </div>
+        <div class="form-group">
+            <label asp-for="AuthorizationToWork">Does the Student have Authorization to Work?:</label> @*Consider adding in ability to edit this field*@
+            <select asp-for="AuthorizationToWork">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label asp-for="AuthorizationEmailDate">Authorization Email Date:</label> @*Consider switching from string to DateTime*@
+            <input asp-for="AuthorizationEmailDate" />
+        </div>
+        <div class="form-group">
+            <label asp-for="BYUName">BYU Name:</label>
+            <input asp-for="BYUName" />
+        </div>
+        <div class="form-group">
+            <label asp-for="NameChangeCompleted">Has a Name Change Been Completed?:</label> @*Consider adding in ability to edit this field*@
+            <select asp-for="NameChangeCompleted">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+        </div>
+
+        <br />
+        <br />
+
+        <button type="submit" class="btn-success">Submit</button>
+
+
+    </form>
+</div>
+
+
+
+
+
+@*<div>
     <form method="post">
         <input type="hidden" asp-for="ApplicationId" />
         <div class="form-group">
@@ -64,7 +224,7 @@
         
 
     </form>
-</div>
+</div>*@
 
 <br />
 <div class="validation" asp-validation-summary="All"></div>

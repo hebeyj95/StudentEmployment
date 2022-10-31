@@ -52,9 +52,9 @@ namespace BaconsaleMovieCollection.Models
         [Required]
         public string HireDate { get; set;}
         [Required]
-        public float PayRate { get; set;}
+        public double PayRate { get; set;}
         public string LastPayIncrease { get; set;}
-        public float PayIncreaseAmount { get; set;}
+        public double PayIncreaseAmount { get; set;}
         public string IncreaseInputDate { get; set;}
         [Required]
         public string YearInProgram { get; set;}

@@ -90,7 +90,7 @@ namespace BaconsaleMovieCollection.Models
                     IncreaseInputDate = "2021-06-30",
                     YearInProgram = "MISM",
                     PayGradTutition = "Yes",
-                    NameChangeCompleted = "Yes"
+                    NameChangeCompleted = "Yes",
                     Notes = "",
                     Terminated = "",
                     TerminationDate = "",
@@ -124,7 +124,7 @@ namespace BaconsaleMovieCollection.Models
                     IncreaseInputDate = "2021-06-30",
                     YearInProgram = "MBA",
                     PayGradTutition = "Yes",
-                    NameChangeCompleted = "Yes"
+                    NameChangeCompleted = "Yes",
                     Notes = "",
                     Terminated = "",
                     TerminationDate = "",
@@ -159,7 +159,7 @@ namespace BaconsaleMovieCollection.Models
                     IncreaseInputDate = "2021-08-15",
                     YearInProgram = "MPA",
                     PayGradTutition = "Yes",
-                    NameChangeCompleted = "Yes"
+                    NameChangeCompleted = "Yes",
                     Notes = "",
                     Terminated = "",
                     TerminationDate = "",
@@ -194,7 +194,7 @@ namespace BaconsaleMovieCollection.Models
                     IncreaseInputDate = "2021-08-15",
                     YearInProgram = "Macc",
                     PayGradTutition = "Yes",
-                    NameChangeCompleted = "Yes"
+                    NameChangeCompleted = "Yes",
                     Notes = "",
                     Terminated = "",
                     TerminationDate = "",
@@ -229,7 +229,7 @@ namespace BaconsaleMovieCollection.Models
                     IncreaseInputDate = "2022-06-30",
                     YearInProgram = "MISM",
                     PayGradTutition = "Yes",
-                    NameChangeCompleted = "Yes"
+                    NameChangeCompleted = "Yes",
                     Notes = "",
                     Terminated = "",
                     TerminationDate = "",
@@ -264,7 +264,7 @@ namespace BaconsaleMovieCollection.Models
                     IncreaseInputDate = "2021-06-30",
                     YearInProgram = "MSB Core (IS or other)",
                     PayGradTutition = "Yes",
-                    NameChangeCompleted = "Yes"
+                    NameChangeCompleted = "Yes",
                     Notes = "",
                     Terminated = "",
                     TerminationDate = "",
@@ -299,7 +299,7 @@ namespace BaconsaleMovieCollection.Models
                     IncreaseInputDate = "2022-06-30",
                     YearInProgram = "MISM",
                     PayGradTutition = "Yes",
-                    NameChangeCompleted = "Yes"
+                    NameChangeCompleted = "Yes",
                     Notes = "",
                     Terminated = "",
                     TerminationDate = "",
@@ -334,7 +334,7 @@ namespace BaconsaleMovieCollection.Models
                     IncreaseInputDate = "2021-08-15",
                     YearInProgram = "MISM",
                     PayGradTutition = "Yes",
-                    NameChangeCompleted = "Yes"
+                    NameChangeCompleted = "Yes",
                     Notes = "",
                     Terminated = "",
                     TerminationDate = "",
@@ -369,7 +369,7 @@ namespace BaconsaleMovieCollection.Models
                     IncreaseInputDate = "2021-08-15",
                     YearInProgram = "MISM",
                     PayGradTutition = "Yes",
-                    NameChangeCompleted = "Yes"
+                    NameChangeCompleted = "Yes",
                     Notes = "",
                     Terminated = "",
                     TerminationDate = "",
@@ -404,7 +404,7 @@ namespace BaconsaleMovieCollection.Models
                     IncreaseInputDate = "2022-06-30",
                     YearInProgram = "Macc",
                     PayGradTutition = "Yes",
-                    NameChangeCompleted = "Yes"
+                    NameChangeCompleted = "Yes",
                     Notes = "",
                     Terminated = "",
                     TerminationDate = "",
@@ -439,7 +439,7 @@ namespace BaconsaleMovieCollection.Models
                     IncreaseInputDate = "2022-06-30",
                     YearInProgram = "MISM",
                     PayGradTutition = "Yes",
-                    NameChangeCompleted = "Yes"
+                    NameChangeCompleted = "Yes",
                     Notes = "",
                     Terminated = "",
                     TerminationDate = "",
@@ -474,7 +474,7 @@ namespace BaconsaleMovieCollection.Models
                     IncreaseInputDate = "2021-08-15",
                     YearInProgram = "MSB Core (IS or other)",
                     PayGradTutition = "Yes",
-                    NameChangeCompleted = "Yes"
+                    NameChangeCompleted = "Yes",
                     Notes = "",
                     Terminated = "",
                     TerminationDate = "",
@@ -509,7 +509,7 @@ namespace BaconsaleMovieCollection.Models
                     IncreaseInputDate = "",
                     YearInProgram = "MSB Core (IS or other)",
                     PayGradTutition = "Yes",
-                    NameChangeCompleted = "Yes"
+                    NameChangeCompleted = "Yes",
                     Notes = "",
                     Terminated = "",
                     TerminationDate = "",
@@ -544,7 +544,7 @@ namespace BaconsaleMovieCollection.Models
                     IncreaseInputDate = "",
                     YearInProgram = "MISM",
                     PayGradTutition = "Yes",
-                    NameChangeCompleted = "Yes"
+                    NameChangeCompleted = "Yes",
                     Notes = "",
                     Terminated = "",
                     TerminationDate = "",
@@ -579,7 +579,7 @@ namespace BaconsaleMovieCollection.Models
                     IncreaseInputDate = "",
                     YearInProgram = "MBA",
                     PayGradTutition = "Yes",
-                    NameChangeCompleted = "Yes"
+                    NameChangeCompleted = "Yes",
                     Notes = "",
                     Terminated = "",
                     TerminationDate = "",
@@ -614,7 +614,7 @@ namespace BaconsaleMovieCollection.Models
                     IncreaseInputDate = "2021-08-15",
                     YearInProgram = "MPA",
                     PayGradTutition = "Yes",
-                    NameChangeCompleted = "Yes"
+                    NameChangeCompleted = "Yes",
                     Notes = "",
                     Terminated = "",
                     TerminationDate = "",
@@ -649,7 +649,7 @@ namespace BaconsaleMovieCollection.Models
                     IncreaseInputDate = "2022-08-15",
                     YearInProgram = "Macc",
                     PayGradTutition = "Yes",
-                    NameChangeCompleted = "Yes"
+                    NameChangeCompleted = "Yes",
                     Notes = "",
                     Terminated = "",
                     TerminationDate = "",
@@ -684,7 +684,7 @@ namespace BaconsaleMovieCollection.Models
                     IncreaseInputDate = "2022-08-15",
                     YearInProgram = "Other majors on campus",
                     PayGradTutition = "No",
-                    NameChangeCompleted = "Yes"
+                    NameChangeCompleted = "Yes",
                     Notes = "",
                     Terminated = "",
                     TerminationDate = "",
@@ -719,7 +719,7 @@ namespace BaconsaleMovieCollection.Models
                     IncreaseInputDate = "2022-06-27",
                     YearInProgram = "MSB Core (IS or other)",
                     PayGradTutition = "Yes",
-                    NameChangeCompleted = "Yes"
+                    NameChangeCompleted = "Yes",
                     Notes = "",
                     Terminated = "",
                     TerminationDate = "",
@@ -754,7 +754,7 @@ namespace BaconsaleMovieCollection.Models
                     IncreaseInputDate = "2022-06-27",
                     YearInProgram = "MISM",
                     PayGradTutition = "Yes",
-                    NameChangeCompleted = "Yes"
+                    NameChangeCompleted = "Yes",
                     Notes = "",
                     Terminated = "",
                     TerminationDate = "",
@@ -789,7 +789,7 @@ namespace BaconsaleMovieCollection.Models
                     IncreaseInputDate = "2022-08-15",
                     YearInProgram = "MISM",
                     PayGradTutition = "Yes",
-                    NameChangeCompleted = "Yes"
+                    NameChangeCompleted = "Yes",
                     Notes = "",
                     Terminated = "",
                     TerminationDate = "",
@@ -824,7 +824,7 @@ namespace BaconsaleMovieCollection.Models
                     IncreaseInputDate = "2022-08-15",
                     YearInProgram = "MISM",
                     PayGradTutition = "Yes",
-                    NameChangeCompleted = "Yes"
+                    NameChangeCompleted = "Yes",
                     Notes = "",
                     Terminated = "",
                     TerminationDate = "",
@@ -859,7 +859,7 @@ namespace BaconsaleMovieCollection.Models
                     IncreaseInputDate = "",
                     YearInProgram = "Macc",
                     PayGradTutition = "Yes",
-                    NameChangeCompleted = "Yes"
+                    NameChangeCompleted = "Yes",
                     Notes = "",
                     Terminated = "",
                     TerminationDate = "",
@@ -894,7 +894,7 @@ namespace BaconsaleMovieCollection.Models
                     IncreaseInputDate = "2022-08-15",
                     YearInProgram = "Other majors on campus",
                     PayGradTutition = "No",
-                    NameChangeCompleted = "Yes"
+                    NameChangeCompleted = "Yes",
                     Notes = "",
                     Terminated = "",
                     TerminationDate = "",
@@ -929,7 +929,7 @@ namespace BaconsaleMovieCollection.Models
                     IncreaseInputDate = "2022-08-15",
                     YearInProgram = "MSB Core (IS or other)",
                     PayGradTutition = "Yes",
-                    NameChangeCompleted = "Yes"
+                    NameChangeCompleted = "Yes",
                     Notes = "",
                     Terminated = "",
                     TerminationDate = "",
@@ -964,7 +964,7 @@ namespace BaconsaleMovieCollection.Models
                     IncreaseInputDate = "2022-06-27",
                     YearInProgram = "MSB Core (IS or other)",
                     PayGradTutition = "Yes",
-                    NameChangeCompleted = "Yes"
+                    NameChangeCompleted = "Yes",
                     Notes = "",
                     Terminated = "",
                     TerminationDate = "",
@@ -999,7 +999,7 @@ namespace BaconsaleMovieCollection.Models
                     IncreaseInputDate = "2022-08-15",
                     YearInProgram = "MISM",
                     PayGradTutition = "Yes",
-                    NameChangeCompleted = "Yes"
+                    NameChangeCompleted = "Yes",
                     Notes = "",
                     Terminated = "Yes",
                     TerminationDate = "2022-09-31",
@@ -1034,7 +1034,7 @@ namespace BaconsaleMovieCollection.Models
                     IncreaseInputDate = "2022-08-15",
                     YearInProgram = "MISM",
                     PayGradTutition = "Yes",
-                    NameChangeCompleted = "Yes"
+                    NameChangeCompleted = "Yes",
                     Notes = "",
                     Terminated = "",
                     TerminationDate = "",
@@ -1069,7 +1069,7 @@ namespace BaconsaleMovieCollection.Models
                     IncreaseInputDate = "",
                     YearInProgram = "MiSM",
                     PayGradTutition = "Yes",
-                    NameChangeCompleted = "Yes"
+                    NameChangeCompleted = "Yes",
                     Notes = "",
                     Terminated = "",
                     TerminationDate = "",
@@ -1104,7 +1104,7 @@ namespace BaconsaleMovieCollection.Models
                     IncreaseInputDate = "",
                     YearInProgram = "MISM",
                     PayGradTutition = "Yes",
-                    NameChangeCompleted = "Yes"
+                    NameChangeCompleted = "Yes",
                     Notes = "",
                     Terminated = "",
                     TerminationDate = "",
@@ -1139,7 +1139,7 @@ namespace BaconsaleMovieCollection.Models
                     IncreaseInputDate = "",
                     YearInProgram = "Other majors on campus",
                     PayGradTutition = "No",
-                    NameChangeCompleted = "Yes"
+                    NameChangeCompleted = "Yes",
                     Notes = "",
                     Terminated = "",
                     TerminationDate = "",
@@ -1174,7 +1174,7 @@ namespace BaconsaleMovieCollection.Models
                     IncreaseInputDate = "2022-08-15",
                     YearInProgram = "MISM",
                     PayGradTutition = "Yes",
-                    NameChangeCompleted = "Yes"
+                    NameChangeCompleted = "Yes",
                     Notes = "",
                     Terminated = "",
                     TerminationDate = "",
@@ -1209,7 +1209,7 @@ namespace BaconsaleMovieCollection.Models
                     IncreaseInputDate = "",
                     YearInProgram = "MISM",
                     PayGradTutition = "Yes",
-                    NameChangeCompleted = "Yes"
+                    NameChangeCompleted = "Yes",
                     Notes = "",
                     Terminated = "",
                     TerminationDate = "",
